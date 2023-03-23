@@ -9,12 +9,23 @@
     private $password;
     private $charset;
 
+
+    //000webhost
+    //db: id19325207_netflix
+    //user: id19325207_user_nextflix
+    //pass: sKl<WX6i-VM*3kae
+
     //Comnstructor
     public function __construct(){
+        // $this->host ="localhost";
+        // $this->db   ="netflix";
+        // $this->user ="root";
+        // $this->password ="";
+        // $this->charset = "utf8mb4";
         $this->host ="localhost";
-        $this->db   ="netflix";
-        $this->user ="root";
-        $this->password ="";
+        $this->db   ="id19325207_netflix";
+        $this->user ="id19325207_user_nextflix";
+        $this->password ="sKl<WX6i-VM*3kae";
         $this->charset = "utf8mb4";
     }
 
@@ -38,5 +49,3 @@
     }
 
  }
-
-?>
